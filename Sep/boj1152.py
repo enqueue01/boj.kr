@@ -1,0 +1,1 @@
+print(len([num for num in input().strip().split(" ") if num !=""]))
