@@ -1,11 +1,10 @@
-N = int(input())
 result, ac = 0, 1
-for i in range(N):
+for i in range(int(input())):
     score = input()
     for j in score:
         if j == "O":
-            result = result + ac
-            ac = ac + 1
+            result += ac
+            ac += 1
         else:
             ac = 1
     print(result)
